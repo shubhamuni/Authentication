@@ -1,4 +1,4 @@
-import classes from './StartingPageContent.module.css';
+import classes from "./StartingPageContent.module.css";
 
 const StartingPageContent = () => {
   return (
