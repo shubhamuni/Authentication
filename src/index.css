@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;700&display=swap');
+=======
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;700&display=swap");
+>>>>>>> 711788057f81dbb8c7690b4b08a1fc11a3950d03
 
 * {
   box-sizing: border-box;
 }
 
 body {
+<<<<<<< HEAD
   font-family: 'Open Sans', 'Lato', sans-serif;
+=======
+  font-family: "Open Sans", "Lato", sans-serif;
+>>>>>>> 711788057f81dbb8c7690b4b08a1fc11a3950d03
   margin: 0;
 }
 
@@ -15,5 +23,10 @@ h3,
 h4,
 h5,
 h6 {
+<<<<<<< HEAD
   font-family: 'Lato', sans-serif;
 }
+=======
+  font-family: "Lato", sans-serif;
+}
+>>>>>>> 711788057f81dbb8c7690b4b08a1fc11a3950d03

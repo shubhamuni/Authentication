@@ -10,7 +10,11 @@
 }
 
 .logo {
+<<<<<<< HEAD
   font-family: 'Lato', sans-serif;
+=======
+  font-family: "Lato", sans-serif;
+>>>>>>> 711788057f81dbb8c7690b4b08a1fc11a3950d03
   font-size: 2rem;
   color: white;
   margin: 0;
@@ -52,4 +56,8 @@
 .header button:hover {
   background-color: #c291e2;
   color: #38015c;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 711788057f81dbb8c7690b4b08a1fc11a3950d03
