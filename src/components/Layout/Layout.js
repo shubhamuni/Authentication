@@ -1,13 +1,13 @@
-import AuthProvirer from "../store/auth-context";
+import { Fragment } from "react";
 
 import MainNavigation from "./MainNavigation";
 
 const Layout = (props) => {
   return (
-    <AuthProvirer>
+    <Fragment>
       <MainNavigation />
       <main>{props.children}</main>
-    </AuthProvirer>
+    </Fragment>
   );
 };
 
