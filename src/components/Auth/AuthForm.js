@@ -1,5 +1,4 @@
-import { useState, useRef, useContext } from "react";
-import { AuthContext } from "../store/auth-context";
+import { useState } from "react";
 
 import classes from "./AuthForm.module.css";
 
@@ -50,9 +49,6 @@ const AuthForm = () => {
         } else {
           return res.json().then((data) => {
             let errorMessage = "Authentication failed!";
-            // if (data && data.error && data.error.message) {
-            //   errorMessage = data.error.message;
-            // }
 
             throw new Error(errorMessage);
           });
