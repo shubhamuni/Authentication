@@ -5,7 +5,6 @@ import classes from "./ProfileForm.module.css";
 const ProfileForm = () => {
   const passwordInputRef = useRef();
   const authCtx = useContext(AuthContext);
-  const LoggedIn = authCtx.isLoggedIn;
 
   const submitHandler = (event) => {
     event.preventDefault();
